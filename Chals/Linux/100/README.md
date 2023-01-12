@@ -1,9 +1,10 @@
 # 100
 
-# Creation
-PING{cat_c0mmand} is put in a text file
-file extension is changed to png
+## Creation
+Using grep
+[file.txt](file.txt)
 
-# Challenge
-My CAT walked over my keyboard and now this file is unusable. I can't remember what the file was meant to be though.
-`file`
+## Challenge
+Can you find the flag?
+Format: PING{xxxxxxxxxxx}
+Hint: Don't look for it manually.. also use linux
