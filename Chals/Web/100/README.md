@@ -1,11 +1,4 @@
-# 100 Points
+# 50 Points
+Used php login code from online source
 
-## Creation
-Broken Access Control Vuln
-Create index.php
-Create Admin.php
-
-`Try to navigate to the admin page`
-
-## Challenge
-Try to navigate to the admin page
+The credentials to the admin login are commented in the html page

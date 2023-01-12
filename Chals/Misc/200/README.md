@@ -1,6 +1,11 @@
-# 200
+# 200 Points
 
-# Creation
-Common vuln - Eternal Blue
+## Creation
+Commands:
+```
+exiftool author='harunie' image.png
+exiftool certificate='PING{EXIFT00l_notEXITtool}' image.png
+```
 
-# Challenge
+## Challenge
+Can you find the flag hidden in this image?

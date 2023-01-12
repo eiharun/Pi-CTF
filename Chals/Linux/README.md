@@ -10,3 +10,6 @@ Default User Creds
 docker build -t ubuntu-ctf .
 
 docker run -p 2200:22 -d --rm ubuntu-ctf
+--get its id, ip and store as vars
+
+docker stop `id`

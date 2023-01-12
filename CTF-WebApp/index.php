@@ -72,9 +72,7 @@
             <!--Titles-->
             <tr>
                 <th><a href="Table/Crypto-0Category.html" class="board_title">Crypto</a></th>
-                <th><a href="Table/Forensics-0Category.html" class="board_title">Forensics</a></th>
                 <th><a href="Table/Linux-0Category.html" class="board_title">Linux</a></th>
-                <th><a href="Table/OSINT-0Category.html" class="board_title">OSINT</a></th>
                 <th><a href="Table/Web-0Category.html" class="board_title">Web</a></th>
                 <th><a href="Table/Misc-0Category.html" class="board_title">Misc</a></th>
             </tr>
@@ -110,40 +108,9 @@
 
                     </div>
                 </td>
+                
                 <td>
-                    <a href="Table/Forensics-100.html" target="_blank" class="board">100</a>
-                    <br></br>
-                    <div id="100-Forensics">
-                        
-                    <!--Separator-->
-
-                    <?php if(!isset($_SESSION['hideF1'])){?>
-                        <form action="validate.php" method="post">
-                            <input type="text", name="Forensics-100-flag", title="flag-input" placeholder="PING{flag}">
-                            <input type="submit" name="submit" value="Submit Flag">
-                        </form>
-                    <?php }?>
-
-                    <?php if(isset($_SESSION['hideF1'])){ 
-                        if($_SESSION['hideF1']==False){?>
-                            <form action="validate.php" method="post">
-                                <input type="text", name="hideF1", title="flag-input" placeholder="PING{flag}">
-                                <input type="submit" name="submit" value="Submit Flag">
-                                <p>Try again</p>
-                            </form>
-                        <?php unset($_SESSION['hideF1']);}
-                        else{
-                            echo "<p> Correct! 100 Points Gained!</p>";
-                        }
-                    }
-                    ?>
-                        
-                    <!--Separator-->
-
-                    </div>
-                </td>
-                <td>
-                    <a href="Table/Linux-100.html" target="_blank" class="board">100</a>
+                    <a href="Table/Linux-100.php" target="_blank" class="board">100</a>
                     <br></br>
                     <div id="100-Linux">
                         
@@ -174,38 +141,7 @@
 
                     </div>
                 </td>
-                <td>
-                    <a href="Table/OSINT-100.html" target="_blank" class="board">100</a>
-                    <br></br>
-                    <div id="100-OSINT">
-                        
-                    <!--Separator-->
-
-                    <?php if(!isset($_SESSION['hideO1'])){?>
-                        <form action="validate.php" method="post">
-                            <input type="text", name="OSINT-100-flag", title="flag-input" placeholder="PING{flag}">
-                            <input type="submit" name="submit" value="Submit Flag">
-                        </form>
-                    <?php }?>
-
-                    <?php if(isset($_SESSION['hideO1'])){ 
-                        if($_SESSION['hideO1']==False){?>
-                            <form action="validate.php" method="post">
-                                <input type="text", name="hideO1", title="flag-input" placeholder="PING{flag}">
-                                <input type="submit" name="submit" value="Submit Flag">
-                                <p>Try again</p>
-                            </form>
-                        <?php }
-                        else{
-                            echo "<p> Correct! 100 Points Gained!</p>";
-                        }
-                    }
-                    ?>
-                        
-                    <!--Separator-->
-
-                    </div>
-                </td>
+                
                 <td>
                     <a href="Table/Web-100.html" target="_blank" class="board">100</a>
                     <br></br>
@@ -305,41 +241,9 @@
 
                     </div>
                 </td>
+                
                 <td>
-                    <a href="Table/Forensics-200.html" target="_blank" class="board">200</a>
-                    <br></br>
-                    <div id="200-Forensics">
-                        
-                    <!--Separator-->
-
-                    <?php if(!isset($_SESSION['hideF2'])){?>
-                        <form action="validate.php" method="post">
-                            <input type="text", name="Forensics-200-flag", title="flag-input" placeholder="PING{flag}">
-                            <input type="submit" name="submit" value="Submit Flag">
-                        </form>
-                    <?php }?>
-
-                    <?php if(isset($_SESSION['hideF2'])){ 
-                        if($_SESSION['hideF2']==False){?>
-                            <form action="validate.php" method="post">
-                                <input type="text", name="hideF2", title="flag-input" placeholder="PING{flag}">
-                                <input type="submit" name="submit" value="Submit Flag">
-                                <p>Try again</p>
-                            </form>
-                            
-                        <?php unset($_SESSION['hideF2']);}
-                        else{
-                            echo "<p> Correct! 200 Points Gained!</p>";
-                        }
-                    }
-                    ?>
-                        
-                    <!--Separator-->
-
-                    </div>
-                </td>
-                <td>
-                    <a href="Table/Linux-200.html" target="_blank" class="board">200</a>
+                    <a href="Table/Linux-200.php" target="_blank" class="board">200</a>
                     <br></br>
                     <div id="200-Linux">
                         
@@ -370,38 +274,7 @@
 
                     </div>
                 </td>
-                <td>
-                    <a href="Table/OSINT-200.html" target="_blank" class="board">200</a>
-                    <br></br>
-                    <div id="200-OSINT">
-                        
-                    <!--Separator-->
-
-                    <?php if(!isset($_SESSION['hideO2'])){?>
-                        <form action="validate.php" method="post">
-                            <input type="text", name="OSINT-200-flag", title="flag-input" placeholder="PING{flag}">
-                            <input type="submit" name="submit" value="Submit Flag">
-                        </form>
-                    <?php }?>
-
-                    <?php if(isset($_SESSION['hideO2'])){ 
-                        if($_SESSION['hideO2']==False){?>
-                            <form action="validate.php" method="post">
-                                <input type="text", name="hideO2", title="flag-input" placeholder="PING{flag}">
-                                <input type="submit" name="submit" value="Submit Flag">
-                                <p>Try again</p>
-                            </form>
-                        <?php }
-                        else{
-                            echo "<p> Correct! 200 Points Gained!</p>";
-                        }
-                    }
-                    ?>
-                        
-                    <!--Separator-->
-
-                    </div>
-                </td>
+                
                 <td>
                     <a href="Table/Web-200.html" target="_blank" class="board">200</a>
                     <br></br>
@@ -501,40 +374,9 @@
 
                     </div>
                 </td>
+                
                 <td>
-                    <a href="Table/Forensics-300.html" target="_blank" class="board">300</a>
-                    <br></br>
-                    <div id="300-Forensics">
-                        
-                    <!--Separator-->
-
-                    <?php if(!isset($_SESSION['hideF3'])){?>
-                        <form action="validate.php" method="post">
-                            <input type="text", name="Forensics-300-flag", title="flag-input" placeholder="PING{flag}">
-                            <input type="submit" name="submit" value="Submit Flag">
-                        </form>
-                    <?php }?>
-
-                    <?php if(isset($_SESSION['hideF3'])){ 
-                        if($_SESSION['hideF3']==False){?>
-                            <form action="validate.php" method="post">
-                                <input type="text", name="hideF3", title="flag-input" placeholder="PING{flag}">
-                                <input type="submit" name="submit" value="Submit Flag">
-                                <p>Try again</p>
-                            </form>
-                        <?php }
-                        else{
-                            echo "<p> Correct! 300 Points Gained!</p>";
-                        }
-                    }
-                    ?>
-                        
-                    <!--Separator-->
-
-                    </div>
-                </td>
-                <td>
-                    <a href="Table/Linux-300.html" target="_blank" class="board">300</a>
+                    <a href="Table/Linux-300.php" target="_blank" class="board">300</a>
                     <br></br>
                     <div id="300-Linux">
                         
@@ -565,38 +407,7 @@
 
                     </div>
                 </td>
-                <td>
-                    <a href="Table/OSINT-300.html" target="_blank" class="board">300</a>
-                    <br></br>
-                    <div id="300-OSINT">
-                        
-                    <!--Separator-->
-
-                    <?php if(!isset($_SESSION['hideO3'])){?>
-                        <form action="validate.php" method="post">
-                            <input type="text", name="OSINT-300-flag", title="flag-input" placeholder="PING{flag}">
-                            <input type="submit" name="submit" value="Submit Flag">
-                        </form>
-                    <?php }?>
-
-                    <?php if(isset($_SESSION['hideO3'])){ 
-                        if($_SESSION['hideO3']==False){?>
-                            <form action="validate.php" method="post">
-                                <input type="text", name="hideO3", title="flag-input" placeholder="PING{flag}">
-                                <input type="submit" name="submit" value="Submit Flag">
-                                <p>Try again</p>
-                            </form>
-                        <?php }
-                        else{
-                            echo "<p> Correct! 300 Points Gained!</p>";
-                        }
-                    }
-                    ?>
-                        
-                    <!--Separator-->
-
-                    </div>
-                </td>
+                
                 <td>
                     <a href="Table/Web-300.html" target="_blank" class="board">300</a>
                     <br></br>
@@ -696,40 +507,9 @@
 
                     </div>
                 </td>
+                
                 <td>
-                    <a href="Table/Forensics-400.html" target="_blank" class="board">400</a>
-                    <br></br>
-                    <div id="400-Forensics">
-                        
-                    <!--Separator-->
-
-                    <?php if(!isset($_SESSION['hideF4'])){?>
-                        <form action="validate.php" method="post">
-                            <input type="text", name="Forensics-400-flag", title="flag-input" placeholder="PING{flag}">
-                            <input type="submit" name="submit" value="Submit Flag">
-                        </form>
-                    <?php }?>
-
-                    <?php if(isset($_SESSION['hideF4'])){ 
-                        if($_SESSION['hideF4']==False){?>
-                            <form action="validate.php" method="post">
-                                <input type="text", name="hideF4", title="flag-input" placeholder="PING{flag}">
-                                <input type="submit" name="submit" value="Submit Flag">
-                                <p>Try again</p>
-                            </form>
-                        <?php }
-                        else{
-                            echo "<p> Correct! 400 Points Gained!</p>";
-                        }
-                    }
-                    ?>
-                        
-                    <!--Separator-->
-
-                    </div>
-                </td>
-                <td>
-                    <a href="Table/Linux-400.html" target="_blank" class="board">400</a>
+                    <a href="Table/Linux-400.php" target="_blank" class="board">400</a>
                     <br></br>
                     <div id="400-Linux">
                         
@@ -760,38 +540,7 @@
 
                     </div>
                 </td>
-                <td>
-                    <a href="Table/OSINT-400.html" target="_blank" class="board">400</a>
-                    <br></br>
-                    <div id="400-OSINT">
-                        
-                    <!--Separator-->
-
-                    <?php if(!isset($_SESSION['hideO4'])){?>
-                        <form action="validate.php" method="post">
-                            <input type="text", name="OSINT-400-flag", title="flag-input" placeholder="PING{flag}">
-                            <input type="submit" name="submit" value="Submit Flag">
-                        </form>
-                    <?php }?>
-
-                    <?php if(isset($_SESSION['hideO4'])){ 
-                        if($_SESSION['hideO4']==False){?>
-                            <form action="validate.php" method="post">
-                                <input type="text", name="hideO4", title="flag-input" placeholder="PING{flag}">
-                                <input type="submit" name="submit" value="Submit Flag">
-                                <p>Try again</p>
-                            </form>
-                        <?php }
-                        else{
-                            echo "<p> Correct! 400 Points Gained!</p>";
-                        }
-                    }
-                    ?>
-                        
-                    <!--Separator-->
-
-                    </div>
-                </td>
+                
                 <td>
                     <a href="Table/Web-400.html" target="_blank" class="board">400</a>
                     <br></br>
@@ -891,40 +640,9 @@
 
                     </div>
                 </td>
+                
                 <td>
-                    <a href="Table/Forensics-500.html" target="_blank" class="board">500</a>
-                    <br></br>
-                    <div id="500-Forensics">
-                        
-                    <!--Separator-->
-
-                    <?php if(!isset($_SESSION['hideF5'])){?>
-                        <form action="validate.php" method="post">
-                            <input type="text", name="Forensics-500-flag", title="flag-input" placeholder="PING{flag}">
-                            <input type="submit" name="submit" value="Submit Flag">
-                        </form>
-                    <?php }?>
-
-                    <?php if(isset($_SESSION['hideF5'])){ 
-                        if($_SESSION['hideF5']==False){?>
-                            <form action="validate.php" method="post">
-                                <input type="text", name="hideF5", title="flag-input" placeholder="PING{flag}">
-                                <input type="submit" name="submit" value="Submit Flag">
-                                <p>Try again</p>
-                            </form>
-                        <?php }
-                        else{
-                            echo "<p> Correct! 500 Points Gained!</p>";
-                        }
-                    }
-                    ?>
-                        
-                    <!--Separator-->
-
-                    </div>
-                </td>
-                <td>
-                    <a href="Table/Linux-500.html" target="_blank" class="board">500</a>
+                    <a href="Table/Linux-500.php" target="_blank" class="board">500</a>
                     <br></br>
                     <div id="500-Linux">
                         
@@ -955,38 +673,7 @@
 
                     </div>
                 </td>
-                <td>
-                    <a href="Table/OSINT-500.html" target="_blank" class="board">500</a>
-                    <br></br>
-                    <div id="500-OSINT">
-                        
-                    <!--Separator-->
-
-                    <?php if(!isset($_SESSION['hideO5'])){?>
-                        <form action="validate.php" method="post">
-                            <input type="text", name="OSINT-500-flag", title="flag-input" placeholder="PING{flag}">
-                            <input type="submit" name="submit" value="Submit Flag">
-                        </form>
-                    <?php }?>
-
-                    <?php if(isset($_SESSION['hideO5'])){ 
-                        if($_SESSION['hideO5']==False){?>
-                            <form action="validate.php" method="post">
-                                <input type="text", name="hideO5", title="flag-input" placeholder="PING{flag}">
-                                <input type="submit" name="submit" value="Submit Flag">
-                                <p>Try again</p>
-                            </form>
-                        <?php }
-                        else{
-                            echo "<p> Correct! 500 Points Gained!</p>";
-                        }
-                    }
-                    ?>
-                        
-                    <!--Separator-->
-
-                    </div>
-                </td>
+                
                 <td>
                     <a href="Table/Web-500.html" target="_blank" class="board">500</a>
                     <br></br>

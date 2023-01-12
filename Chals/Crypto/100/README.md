@@ -1,14 +1,14 @@
 # 100 Points
 
 ## Creation
+PING{uR_4_w1zz4rdh4rry}
 
-PING{PONG}
-To Base64
-UElOR3tQT05HfQ==
-To Hex
-55 45 6c 4f 52 33 74 51 54 30 35 48 66 51 3d 3d
+XOR Key: 06
+
+VOHA}sTY2Yq7||2tbn2tt.{
 
 ## Challenge
-55 45 6c 4f 52 33 74 51 54 30 35 48 66 51 3d 3d
-That's it...
-Its pretty easy
+Harry accidentally cast a spell on his professor that makes his writing illegible by shifting his alphabet.
+Can you somehow decipher what he is trying to write?
+
+VOHA}sTY2Yq7||2tbn2tt.{

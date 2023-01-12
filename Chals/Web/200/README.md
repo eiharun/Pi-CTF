@@ -1,18 +1,11 @@
-# 200 Points
+# 100 Points
 
 ## Creation
-Broken Acess Control
-Mini Search Engine
-    Create Dir with page ids
-    Search box, where input is page 'id'
-    Flag is in ID=0
-        --future-addition:input does not allow value other than between 2 & 6
+Broken Access Control Vuln
+Create index.php
+Create Admin.php
 
-Injection Vuln
-Mini Search Engine
-    Create Dir with page ids
-    Search box, where input is page 'id'
-    Search uses cat command
+`Try to navigate to the admin page`
 
 ## Challenge
-
+Try to navigate to the admin page

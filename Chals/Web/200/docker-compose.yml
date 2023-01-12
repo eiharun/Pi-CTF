@@ -3,6 +3,6 @@ services:
   webserver:
     image: php-apt:latest
     ports:
-      - "5673:80"
+      - "5671:80"
     volumes:
       - ./app:/var/www/html

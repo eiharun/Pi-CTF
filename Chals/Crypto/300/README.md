@@ -1,19 +1,13 @@
-# 300
+# 300 Points
 
-# Creation
-    Easy RSA
-    PING{3Z_R$@}
+## Creation
+[easy_program](easy_program.py)
+PING{b1twhyZe_0p3r4t0R}
+Using easy_program.py with the random shift digit at 7,
+the flag is encrypted to a string of numbers
+10240934499849088157441254462721484815232133121548811520129281216061441433665281459266561484861441049616000
 
-Using rsa.py
-
-Encrypted flag = [5, 156, 199, 312, 140, 266, 85, 222, 136, 82, 245, 207]
-
-
-# Challenge
-We recieved a list which seems to have been converted to decimal using python's ord() function.
-However it is encrypted using some algorithm, we have collected the following information and nothing more
-Encrypted message = [5, 156, 199, 312, 140, 266, 85, 222, 136, 82, 245, 207]
-n=319
-e=3
-p=29
-Can you decrypt the flag?
+## Challenge
+Can you figure out what the flag could be?
+`10240934499849088157441254462721484815232133121548811520129281216061441433665281459266561484861441049616000`
+I've given you the code used to encyrpt it -> easy_program.py(insert link)
