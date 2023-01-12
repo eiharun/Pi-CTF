@@ -14,11 +14,6 @@ RUN echo 'root:DockerRoot?' | chpasswd
 RUN useradd pi-linux -d /home/pi-linux -s /bin/bash -m && \
 echo "pi-linux:PiLinux!" | chpasswd
 
-#RUN command to clone github repo with linux challenges
-RUN cd /home/pi-linux && git clone https://github.com/eiharun/Pi-CTF.git
-RUN cp -a /home/pi-linux/Pi-CTF/Chals/Linux/. /home/pi-linux
-RUN rm -rvf /home/pi-linux/Pi-CTF 
-RUN rm -r /home/pi-linux/*.md
 
 # Generate new host keys
 COPY ssh_host_rsa_key_docker /etc/ssh/ssh_host_rsa_key
@@ -36,3 +31,12 @@ CMD ["/usr/sbin/sshd", "-D"]
 
 USER pi-linux
 WORKDIR /home/pi-linux
+
+#RUN command to clone github repo with linux challenges
+RUN cd /home/pi-linux && git clone https://github.com/eiharun/Pi-CTF.git
+RUN cp -a /home/pi-linux/Pi-CTF/Chals/Linux/. /home/pi-linux
+RUN rm -rvf /home/pi-linux/Pi-CTF 
+RUN rm -r /home/pi-linux/*.md
+USER root
+RUN apt-get remove git -y
+USER pi-linux
