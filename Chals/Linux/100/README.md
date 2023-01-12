@@ -2,6 +2,7 @@
 
 ## Creation
 Using grep
+PING{yOus1ng-_-GREP=is_super`e4$y}
 [file.txt](file.txt)
 
 ## Challenge

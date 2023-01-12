@@ -6,10 +6,10 @@
         $_SESSION['score'] = 0;
         header("Location:index.php");
     }
-    $Crypto =       array("100"=>"Flag1", "200"=>"Flag2","300"=>"Flag3","400"=>"Flag4","500"=>"Flag5");
-    $Linux =        array("100"=>"Flag1", "200"=>"Flag2","300"=>"Flag3","400"=>"Flag4","500"=>"Flag5");
-    $Web =          array("100"=>"Flag1", "200"=>"Flag2","300"=>"Flag3","400"=>"Flag4","500"=>"Flag5");
-    $Misc =         array("100"=>"Flag1", "200"=>"Flag2","300"=>"Flag3","400"=>"Flag4","500"=>"Flag5");
+    $Crypto =       array("100"=>"PING{uR_4_w1zz4rdh4rry}", "200"=>"PING{PONG}","300"=>"PING{b1twhyZe_0p3r4t0R}","400"=>"PING{3Z_R$@}","500"=>"PING{H0w_10ng?}");
+    $Linux =        array("100"=>"PING{yOus1ng-_-GREP=is_super`e4\$y}", "200"=>"PING{cat_c0mmand}","300"=>"PING{yoosing_y0ur_h34d}","400"=>"PING{291403_523}","500"=>"PING{A_B1t_H4rdr}");
+    $Web =          array("100"=>"PING{Y0U_F0uND_M3}", "200"=>"PING{YourenotsupposedtoseethiS}","300"=>"PING{Crypt0gr4ph1cF4ilvr3}","400"=>"PING{Br0k3n_4cceSs_Contr01}","500"=>"PING{C0mm4nd_1nj3cT10N}");
+    $Misc =         array("100"=>"PING{ETERNAL_BLUE}", "200"=>"PING{EXIFT00l_notEXITtool}","300"=>"PING{LOGIC}","400"=>"PING{MOUNTAIN_VIEW}","500"=>"PING{U_SLAVIE}");
 
     #Below from test.php
     if(isset($_POST['Crypto-100-flag'])){
