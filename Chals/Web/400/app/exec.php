@@ -1,3 +1,5 @@
+<?php
+    ob_start();session_start();?>
 <html>
     <body>
         <?php
@@ -7,7 +9,7 @@
             "3"=>"HunterxHunter.html",
             "4"=>"JujutsuKaisen.html",
             "5"=>"OnePiece.html");
-            header("Location: /Chals/Web/400/app/library/".$point[$_GET["Page_ID"]]);
+            header("Location:library/".$point[$_GET["Page_ID"]]);
             
             
         ?>
