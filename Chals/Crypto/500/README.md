@@ -13,3 +13,4 @@ Used https://www.audiocheck.net/audiocheck_spectrotyper.php to write "/youcantfi
 # Challenge
 This one won't be any more difficult than the previous, just a quite a bit more tedious ;)
 `audiofile`
+Hint: Whats 9+10? 

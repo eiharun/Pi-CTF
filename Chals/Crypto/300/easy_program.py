@@ -18,3 +18,4 @@ def revert(flag_out):
     return ''.join(str(i) for i in flag_out)
 
 print(revert(shift(str_list())))
+
